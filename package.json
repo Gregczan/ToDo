@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "braces": "^3.0.2",
+    "gh-pages": "^2.1.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^7.0.3",
@@ -13,7 +14,7 @@
     "redux": "^4.0.1"
   },
   "scripts": {
-    "predeploy": "npm run bild",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
