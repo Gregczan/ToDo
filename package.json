@@ -1,8 +1,10 @@
 {
+  "homepage": "https://gregczan.github.io/ToDoList/",
   "name": "app-todolist",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "braces": "^3.0.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^7.0.3",
@@ -11,6 +13,8 @@
     "redux": "^4.0.1"
   },
   "scripts": {
+    "predeploy": "npm run bild",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
